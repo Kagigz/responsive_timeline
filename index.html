@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+  <title>Responsive Timeline Example</title>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/responsive-timeline.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <!-- Use this stylesheet for another style
+  <link rel="stylesheet" href="css/custom2.css"> -->
+
+  <!-- Scripts -->
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="js/responsive-timeline.js"></script>
+
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
+
+  <!--
+    Template made by Katia GIL GUZMAN
+    Github: https://github.com/Kagigz/responsive_timeline
+  -->
+
+</head>
+
+<body>
+
+  <div class="container" align="center" id="timelineFormation">
+
+    <!--
+
+        /!\ Don't forget to make your changes on both timelines /!\
+
+        xx If you want to add a block:
+        - Copy block (see below) and paste in the right position
+        - Change the "leftFormation" or 'rightFormation' classes accordingly
+
+        xx If you want to add a pin:
+        - Copy pin (see below) and paste in the right position
+        - Add the class pinTranslate if needed
+
+        xx Wrap new block/new pin or both (if they are on the same row) with:
+        <div class="row">
+        </div>
+
+    -->
+
+    <!-- Timeline on larger devices -->
+    <div class="row timeline" id="timelineMD">
+
+          <div class="row">
+          <!-- COPY OF BLOCK STARTS HERE -->
+           <div class="formationPartMD leftFormation">
+              <h6 class="titleFormation">Master of Science</h6>
+              <p class="txtFormation">Computer Science</p>
+           </div>
+           <!-- COPY OF BLOCK ENDS HERE -->
+           <!-- COPY OF PIN STARTS HERE -->
+           <div class="timelinePin pinTranslate">
+             <img src="img/timeline_pin.svg" class="pinImg">
+             <p class="timelineYear">2018</p>
+           </div>
+           <!-- COPY OF PIN ENDS HERE -->
+         </div>
+
+           <div class="row">
+
+            <div class="formationPartMD rightFormation">
+               <h6 class="titleFormation">School</h6>
+               <p class="txtFormation">Different fields studied</p>
+               <div class="detailsSchool" id="detailsSchoolMD" align="justify">
+                 Fields I studied:
+                 <ul>
+                   <li><strong>Mathematics</strong> (Probabilities, Statistics and data analysis, Optimization, Scientific computing)</li>
+                   <li><strong>Physics</strong> (Electronic function and system, microwaves, fiber-optic communications, physics of communication systems)</li>
+                   <li><strong>Computer Science</strong> (Algorithms and programming languages, operating systems, databases and information systems, web applications, applications with java, centralized systems)</li>
+                   <li><strong>Networks</strong> (Fixed and wireless telecommunication networks, data networks, network performance)</li>
+                   <li><strong>Image</strong> (Multimedia acquisition and coding, multimedia information extraction, augmented reality)</li>
+                   <li><strong>Economics</strong> (Financial management and marketing, business law, economic performance and quality management)</li>
+                 </ul>
+               </div>
+               <img src="img/plus.svg" id="plusSignMD" align="right">
+           </div>
+
+          </div>
+
+          <div class="row">
+
+            <div class="timelinePin">
+              <img src="img/timeline_pin.svg" class="pinImg">
+              <p class="timelineYear">2015</p>
+            </div>
+
+         </div>
+
+          <div class="row">
+
+           <div class="formationPartMD leftFormation">
+              <h6 class="titleFormation">Other School</h6>
+              <p class="txtFormation">Description</p>
+           </div>
+
+         </div>
+
+         <div class="row">
+
+           <div class="timelinePin pinleft pinTranslate">
+             <img src="img/timeline_pin.svg" class="pinImg">
+             <p class="timelineYear">2013</p>
+           </div>
+
+           <div class="formationPartMD rightFormation">
+             <h6 class="titleFormation">High School Diploma</h6>
+             <p class="txtFormation">Science major</p>
+           </div>
+
+        </div>
+
+    </div>
+
+    <!-- Timeline on smaller devices -->
+    <div class="row timeline" id="timelineXS">
+
+          <div class="row">
+
+          <!-- COPY OF BLOCK STARTS HERE -->
+           <div class="formationPartXS">
+              <h6 class="titleFormation">Master of Science</h6>
+              <p class="txtFormation">Computer Science</p>
+           </div>
+           <!-- COPY OF BLOCK ENDS HERE -->
+
+           <!-- COPY OF PIN STARTS HERE -->
+           <div class="timelinePinXS pinleft pinTranslate">
+             <img src="img/timeline_pin.svg" class="pinImg">
+             <p class="timelineYear">2018</p>
+           </div>
+           <!-- COPY OF PIN ENDS HERE -->
+
+         </div>
+
+           <div class="row">
+
+            <div class="formationPartXS">
+               <h6 class="titleFormation">School</h6>
+               <p class="txtFormation">Different fields studied</p>
+               <div class="detailsSchool" id="detailsSchoolXS" align="justify">
+                 Fields I studied:
+                 <ul>
+                   <li><strong>Mathematics</strong> (Probabilities, Statistics and data analysis, Optimization, Scientific computing)</li>
+                   <li><strong>Physics</strong> (Electronic function and system, microwaves, fiber-optic communications, physics of communication systems)</li>
+                   <li><strong>Computer Science</strong> (Algorithms and programming languages, operating systems, databases and information systems, web applications, applications with java, centralized systems)</li>
+                   <li><strong>Networks</strong> (Fixed and wireless telecommunication networks, data networks, network performance)</li>
+                   <li><strong>Image</strong> (Multimedia acquisition and coding, multimedia information extraction, augmented reality)</li>
+                   <li><strong>Economics</strong> (Financial management and marketing, business law, economic performance and quality management)</li>
+                 </ul>
+               </div>
+               <img src="img/plus.svg" id="plusSignXS" align="right">
+           </div>
+
+          </div>
+
+          <div class="row">
+
+            <div class="timelinePinXS pinleft">
+              <img src="img/timeline_pin.svg" class="pinImg">
+              <p class="timelineYear">2015</p>
+            </div>
+
+         </div>
+
+          <div class="row">
+
+           <div class="formationPartXS">
+              <h6 class="titleFormation">Other School</h6>
+              <p class="txtFormation">Description</p>
+           </div>
+
+         </div>
+
+         <div class="row">
+
+           <div class="timelinePinXS pinleft pinTranslate">
+             <img src="img/timeline_pin.svg" class="pinImg">
+             <p class="timelineYear">2013</p>
+           </div>
+
+           <div class="formationPartXS">
+             <h6 class="titleFormation">High School Diploma</h6>
+             <p class="txtFormation">Science major</p>
+           </div>
+
+        </div>
+
+    </div>
+
+
+</body>
+</html>

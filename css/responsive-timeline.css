@@ -1,0 +1,64 @@
+/*
+  Responsive Timeline by Katia GIL GUZMAN
+  Github: https://github.com/Kagigz/responsive_timeline
+*/
+
+#timelineFormation{padding:30px;font-family: "Lato",sans-serif;}
+.row{margin:0;}
+.timeline{padding-top:40px;padding-bottom:40px;margin-top:40px;border-left:10px solid #545454;}
+#timelineMD{margin-left:50%;}
+#timelineXS{margin-left:12%;}
+.timelinePin{display:inline-block;float:left;vertical-align:bottom;margin-left:-10px;}
+.pinImg{width:30px;margin-right:5px;margin-left:-10px;}
+.timelineYear{display:inline-block;font-size:20px;letter-spacing:3px;font-weight:700;}
+.pinleft .timelineYear{margin-left:-100%; margin-right:18px;}
+.pinleft{float:left;margin-left:-61px;margin-right:-61px;}
+.timelinePinXS{display:inline-block;float:left;vertical-align:bottom;}
+.pinTranslate{transform:translate(0,120%);}
+.formationPartMD{background-color:rgb(0, 0, 0);color:white;display:inline-block;padding:20px;margin-top:10px;margin-bottom:10px;width:400px;}
+.formationPartXS{background-color:rgb(0, 0, 0);color:white;display:inline-block;padding:10px;margin-top:10px;margin-bottom:10px;width:250px;}
+.txtFormation{color:#95989a;}
+.leftFormation{float:left;margin-left:-425px;}
+.titleFormation{font-weight:500;}
+
+@media (min-width:800px){.formationPartXS{margin-left:-320px;}
+}
+@media (min-width:1201px){.rightFormation{margin-left:-115px;}
+}
+@media (max-width:1200px){.rightFormation{margin-left:-16px;}
+}
+@media (max-width:1100px){.rightFormation{margin-left:-11px;}
+}
+
+@media (max-width: 767px){
+  .titleFormation{
+    font-size:20px;
+  }
+  .timelineYear{font-size:14px;}
+}
+
+@media (max-width: 991px){
+  #timelineMD{
+    display:none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+  .titleFormation{
+    font-size:16px;
+  }
+}
+
+@media (min-width: 992px){
+  .titleFormation{
+    font-size:20px;
+  }
+  #timelineXS{
+    display:none;
+  }
+}
+
+
+#plusSignMD{width:30px;cursor:pointer;}
+#plusSignXS{width:20px;cursor:pointer;}
+.detailsSchool{color:white;font-weight:300;letter-spacing:1px;}

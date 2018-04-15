@@ -1,0 +1,64 @@
+/*
+  Responsive Timeline by Katia GIL GUZMAN
+  Github: https://github.com/Kagigz/responsive_timeline
+*/
+
+/* Font */
+#timelineFormation{
+    font-family: "Lato",sans-serif;
+}
+
+
+/* line color & aspect */
+.timeline{
+border-left:10px solid #545454;
+}
+
+/* Blocks color & font color for larger viewports */
+.formationPartMD{
+  background-color:rgb(0, 0, 0);
+  color:white;
+}
+/* Blocks color & font color for smaller viewports */
+.formationPartXS{
+  background-color:rgb(0, 0, 0);
+  color:white;
+}
+
+/* Years font color */
+.timelineYear{
+  color:inherit;
+}
+
+/* Text font & color */
+.txtFormation{
+  color:#95989a;
+}
+
+/* Details font & color */
+.detailsSchool{
+  color:white;
+  font-weight:300;
+  letter-spacing:1px;
+}
+
+/* Titles font & color for small viewports */
+@media (max-width: 767px){
+  .titleFormation{
+    font-size:20px;
+  }
+}
+
+/* Titles font & color for medium viewports */
+@media (min-width: 768px) and (max-width: 991px){
+  .titleFormation{
+    font-size:16px;
+  }
+}
+
+/* Titles font & color for large viewports */
+@media (min-width: 992px){
+  .titleFormation{
+    font-size:20px;
+  }
+}
