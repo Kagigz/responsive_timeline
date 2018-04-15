@@ -1,6 +1,6 @@
 # Responsive & Customizable Timeline
 
-![preview1](https://imgur.com/a/hFpgj)
+![preview1](img/preview.jpg)
 
 #### This is a ready-to-use, simple and customizable timeline.
 
@@ -22,7 +22,7 @@ You will need to know the basics of HTML & CSS to use it.
 
 Example of other style:
 
-![preview2](https://imgur.com/a/Vgiy4)
+![preview2](img/otherstyle.jpg)
 
 1. Open the file custom.css
 2. Make your changes (the comments indicate where to make changes)
